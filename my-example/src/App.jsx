@@ -43,23 +43,26 @@ function App() {
     </div>
     </div>
     <br/>
+
+<div className='logo'>
     <div className='encapsulate'>
-    <div className='logo'>
     <img src={icon1} alt='icon1 logo' />
-    <img src={icon2} alt='icon2 logo' />
-    <img src={icon3} alt='icon3 logo' />
-    <img src={icon4} alt='icon4 logo' /> 
-    </div>
-    <div className='titles'>
-      {title1}
-      {title2}
-      {title3}
-      {title4}
-      </div>
-    <div className='texts'>
+    {title1}
     {text1}
+    </div>
+    <div className='encapsulate'>
+    <img src={icon2} alt='icon2 logo' />
+    {title2}
     {text2}
+    </div>
+    <div className='encapsulate'>
+    <img src={icon3} alt='icon3 logo' />
+    {title3}
     {text3}
+    </div>
+    <div className='encapsulate'>
+    <img src={icon4} alt='icon4 logo' /> 
+    {title4}
     {text4}
 
     </div>
